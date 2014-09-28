@@ -1,0 +1,16 @@
+			In the name of GOD
+
+This is the Client Framework (CF) of PARTOV system.
+Before any other work open the "userpass.sh" file with an editor
+and type your username and password there.
+
+Then you could use the .sh files for running your programs as follows:
+ - The "new.sh" for instantiating a new topology for you.
+ - The "free.sh" for releasing the previously assigned topology instance.
+    * Do not forget to free the instance when your simulation finished.
+
+ - The "tunnel1.sh" and "tunnel2.sh" for connecting your program to virtual tunneler nodes.
+
+At the end, do not forget to change/adapt the Makefile so it creates "tunneler.out" correctly
+when the "make" command is issued.
+
